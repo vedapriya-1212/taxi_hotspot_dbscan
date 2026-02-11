@@ -25,7 +25,7 @@ ignore random pickups, and analyze demand density.
 
 # LOAD DATASET (DIRECT)
 
-DATA_PATH = r"C:\\coetraining\\taxi_hotspot_dbscan\\taxi_sample.csv"
+DATA_PATH = "taxi_sample.csv"
 
 try:
     df = pd.read_csv(DATA_PATH, encoding="utf-8")
